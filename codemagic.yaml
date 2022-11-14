@@ -33,7 +33,7 @@ workflows:
         scripts:
             - name: Install npm dependencies for Ionic project
               script: |
-                npm install
+                npm i @capacitor/ios
             - name: Cocoapods installation
               script: |
                 cd ios/App && pod install
